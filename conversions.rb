@@ -40,8 +40,8 @@ puts 'Right, ' + firstname + middlename + ', and what\'s your last name?'
 lastname = 'Dimmer'
 puts firstname + middlename + lastname + '? What a great name!'
 
-#Output
-#irb(main):001:0> puts 'Hi, what\'s your first name?'
+# Output
+# irb(main):001:0> puts 'Hi, what\'s your first name?'
 # Hi, what's your first name?
 # => nil
 # irb(main):002:0> firstname = 'Olivia'
@@ -51,7 +51,6 @@ puts firstname + middlename + lastname + '? What a great name!'
 # => nil
 # irb(main):004:0> middlename = 'Kathryn'
 # => "Kathryn"
-# irb(main):005:0>
 # irb(main):007:0> puts 'Right, ' + firstname + middlename + ', and what\'s your last name?'
 # Right, OliviaKathryn, and what's your last name?
 # => nil
@@ -60,4 +59,21 @@ puts firstname + middlename + lastname + '? What a great name!'
 # irb(main):009:0> puts firstname + middlename + lastname + '? What a great name!'
 # OliviaKathrynDimmer? What a great name!
 # => nil
-# irb(main):010:0>
+
+puts 'What\'s your favorite number?'
+favnumber = 6
+newfav = favnumber + 1
+puts 'Really? Well, I think ' + newfav.to_s + ' is way better.'
+
+#Output
+# irb(main):013:0> puts 'What\'s your favorite number?'
+# What's your favorite number?
+# => nil
+# irb(main):014:0> favnumber = 6
+# => 6
+# irb(main):015:0> newfav = favnumber + 1
+# => 7
+# irb(main):016:0> puts 'Really? Well, I think ' + newfav.to_s + ' is way better.'
+# Really? Well, I think 7 is way better.
+# => nil
+# irb(main):017:0>
